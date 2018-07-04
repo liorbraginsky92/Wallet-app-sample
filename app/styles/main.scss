@@ -1,0 +1,120 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+
+
+body {
+  background: url(../images/bg.jpg) no-repeat #f7f7f7;
+  background-size: 100% 220px;
+  font-family: 'Open Sans', sans-serif;
+}
+ul.movements li {
+  list-style: none;
+  margin-bottom: 20px;
+  overflow: auto;
+  padding: 5px;
+  line-height: 43px;
+}
+.form-group {
+  width: calc(100% - 143px);
+}
+.form-inline .form-group input {
+  width: 100%;
+  background: rgba(255,255,255,0.7);
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+.col-sm-9 {
+  margin: auto;
+  float: none;
+  margin-top: 40px;
+}
+.movements li:nth-child(even) {
+  background: #f2f2f2;
+}
+ul.movements {
+  margin-top: 50px;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+.header h3 {
+  font-family: 'Pacifico', cursive;
+  color: #F2F2F2;
+  font-size: 36px;
+}
+.btn-group {
+  margin-left: -4px;
+}
+.btn-group .btn {
+  border-radius: 0;
+}
+.btn-group button.btn.btn-success {
+  border-radius: 0 4px 4px 0;
+}
+.btn {
+  line-height: 1.43;
+}
+.panel-body {
+  background: transparent;
+  border: none;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  color: rgba(255,255,255,0.9);
+}
+.negative:after, .negative:before {
+  opacity: 1;
+  visibility: visible;
+}
+.control-label {
+  display: none;
+  position: absolute;
+}
+.has-error .control-label {
+  display: block;
+}
